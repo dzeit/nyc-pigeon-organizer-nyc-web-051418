@@ -9,13 +9,13 @@ def nyc_pigeon_organizer(data)
         if new_hash[pigeon_name] # Since names repeat, we don't want to reset the value. 
        #binding.pry 
           if hash[inner_key].include?(pigeon_name)
-            binding.pry 
+            #binding.pry 
             if new_hash[pigeon_name][key]
           new_hash[pigeon_name][key] << inner_key.to_s
         else 
           new_hash[pigeon_name][key] = []
           new_hash[pigeon_name][key] << inner_key.to_s
-          binding.pry 
+          #binding.pry 
           end 
          end
         else 
