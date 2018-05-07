@@ -22,6 +22,7 @@ def nyc_pigeon_organizer(data)
           #binding.pry 
           new_hash[pigeon_name] = {} # This is the syntax for creating the new key in new_hash and it's value is an empty hash.
           new_hash[pigeon_name][key] = [] # dynamic for color, gender, lives.
+          
         end 
          
         
