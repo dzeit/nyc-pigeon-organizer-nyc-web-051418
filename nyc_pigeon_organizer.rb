@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
        binding.pry 
           if hash[inner_key].include?(pigeon_name)
           new_hash[pigeon_name][key] << inner_key.to_s
+          
         else 
           binding.pry 
           new_hash[pigeon_name] = {} # This is the syntax for creating the new key in new_hash and it's value is an empty hash.
@@ -18,7 +19,7 @@ def nyc_pigeon_organizer(data)
          
         
           binding.pry 
-          end 
+          
         end 
        end 
     end 
